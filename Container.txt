@@ -9,7 +9,11 @@ void main() {
     // This widget will be used as the layout.
     // We will give it a Container widget this time.
     Container(
-      color: Colors.green, // <-- change this
+      color: Colors.green,
+      height:200
+      width:100
+      child:Text("This is a Flutter Project",style:TextStyle(fontSize:20))
+      // <-- change this
     ),
 
   );
